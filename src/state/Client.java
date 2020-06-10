@@ -3,15 +3,11 @@ package state;
 public class Client {
     public static void main(String [] abc){
 
-        IState state = new insuficiente();
+        Maquina m = new Maquina();
 
-        Context context = new Context();
-        context.setState(state);
-        context.request();
-
-        state = new exacto();
-        context.setState(state);
-        context.request();
+        m.pedido(20, Maquina.producto.chocolate);
+        m.pedido(5, Maquina.producto.jugo);
+        m.pedido(3, Maquina.producto.galletas);
 
     }
 

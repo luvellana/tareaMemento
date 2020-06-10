@@ -1,5 +1,5 @@
 package state;
 
 public interface IState {
-    void handle();
+    void handle(int m, int p);
 }

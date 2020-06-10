@@ -2,7 +2,7 @@ package state;
 
 public class exacto implements  IState {
     @Override
-    public void handle() {
-        System.out.println("State > ConcreteStateB");
+    public void handle(int m, int p) {
+        System.out.println("Monto exacto > Disfrutalo!");
     }
 }

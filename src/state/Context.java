@@ -3,7 +3,6 @@ package state;
 public class Context {
     // agregar- cumpla patron state
     private IState state;
-    private int monto;
 
     public Context(){
     }
@@ -16,8 +15,8 @@ public class Context {
         this.state = state;
     }
 
-    public void request(){
-        state.handle();
+    public void request(int m, int p){
+        state.handle(m, p);
     }
 
 }
