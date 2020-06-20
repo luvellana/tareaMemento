@@ -16,7 +16,6 @@ public class Client {
         gasolina.estadoCombustible();
         System.out.println("Estado: " +gasolina.estadoCombustible());
 
-
     }
 
 
