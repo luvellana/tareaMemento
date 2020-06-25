@@ -11,6 +11,4 @@ public class Client {
        proxy.setRequest(new Request("descarga",".zip","imagenes"));
        proxy.request();
     }
-
-
 }
